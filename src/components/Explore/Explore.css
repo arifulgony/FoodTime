@@ -1,0 +1,7 @@
+.image{
+    background-image: url('../../asete/image2.png');
+    width: 751px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
