@@ -44,7 +44,7 @@ const Banner = () => {
             {/*   */}
           </div>
           <div>
-            <div className="xl:h-[528px] xl:w-[533px] md:h-[428px] md:w-[433px] relative display-none z-10" data-aos="fade-left">
+            <div className="xl:h-[528px] xl:w-[533px] md:h-[428px] md:w-[433px] relative display-none z-10" data-aos="fade-left" data-aos-duration="2000">
               <img className="w-full h-full absolute " src={img} alt="" />
             </div>
             <div className="xl:w-[245px] xl:h-[118px] md:w-[145px] md:h-[88px] banner_top absolute top-0 ml-[170px] xl:mt-[-70px] md:mt-[-50px] z-10 rounded-[8px] text-center card-m">

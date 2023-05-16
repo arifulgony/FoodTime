@@ -1,7 +1,6 @@
 import React from 'react';
 import './Explore.css';
 import img from '../../asete/dalivary.png';
-import img2 from '../../asete/image2.png'
 import {BsArrowRight  } from "react-icons/bs";
 
 const Explore = () => {
@@ -9,7 +8,7 @@ const Explore = () => {
         <div>
             <div className="flex w-full explore">
                 <div className="flex justify-items-center align-middle items-center h-[600px]">
-                    <div className="xl:pl-[70px] pl-[26px]" data-aos="fade-up-right">
+                    <div className="xl:pl-[70px] pl-[26px]" data-aos="fade-up-right" data-aos-duration="2000">
                     <h1 className='xl:w-[527px] w-[350px] xl:text-[50px] text-[32px] font-[700] xl:leading-[65px] leading-[45px] meriendaBold text-[#396C03] title'>Explore your <br /> favourite city’s food.</h1>
                     <p className='w-[567px] title text-[18px] font-400 mt-3'>Lorem ipsum dolor sit amet consectetur. Ornare massa nunc <br /> nibh tristique. Non ligula tristique ut ut libero sit convallis <br /> maecenas. At egestas auctor porta mattis.</p>
                     <a className="mt-[14px] btn rounded-full w-[231px] h-[67px] px-[60px] py-[15px] text-[20px] font-500 bg-[#396C03] capitalize text-white border-none mr-[23px]">Explore  <BsArrowRight className='ml-[15px] text-white font-700' /> </a>
