@@ -1,6 +1,11 @@
-# Live link
+# Live link : https://foodtime1.netlify.app/
 
-https://foodtime1.netlify.app/
+# Technology
+* HTML
+* CSS
+* Tailwindcss
+* React JS
+* AOS animation
 
 ## Available Scripts
 
