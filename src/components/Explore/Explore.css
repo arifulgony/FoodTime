@@ -6,6 +6,24 @@
     background-size: contain;
     background-position: center;
 }
+@media only screen and (min-width: 280px) and (max-width: 575px){
+  .explore{
+    flex-wrap: wrap;
+  }
+  .explore-img{
+    height: 300px;
+    width: 300px;
+  }
+  .title{
+
+    width: 250px;
+  }
+  .margin{
+   
+    margin-top: 50px;
+  }
+
+}
 
 /* .any {
     position: relative;

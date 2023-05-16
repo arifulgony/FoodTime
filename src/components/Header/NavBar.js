@@ -53,7 +53,7 @@ const NavBar = () => {
                   </li>
                 </ul>
               </div>
-              <div className="navbar-end">
+              <div className="navbar-end hidden xl:block lg:block">
                 <a className="btn rounded-full w-[154px] h-[58px] text-[20px] font-500 bg-[#396C03] capitalize text-white border-none xl:mr-[23px] lg:mr-[0px]">Login</a>                 
                 <label tabIndex={0} className="btn btn-ghost btn-circle w-[60px] h-[60px] bg-[#396C03] xl:mr-20 lg:mr-0">
                 <div className="indicator">
@@ -63,7 +63,7 @@ const NavBar = () => {
                 </label>
                </div>
             </div>
-            <hr className='bg-[#3F3F3F]' />
+            <hr className='bg-[#3F3F3F] md:hidden' />
         </div>
     );
 };
