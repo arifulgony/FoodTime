@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = () => {
     return (
         <div>
-           <div className="navbar bg-[#eff6e6]">
+           <div className="navbar bg-[#eff6e6] xl:w-full md:w-[1020px] mx-auto">
               <div className="navbar-start">
                 <div className="dropdown">
                   <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -34,10 +34,10 @@ const NavBar = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-[28.34px] font-700 text-[#396C03]">FoodTime</a>
+                <a className="btn btn-ghost normal-case text-[28.34px] font-700 text-[#396C03] meriendaBold xl:ml-16 lg:ml-0">FoodTime</a>
               </div>
               <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-[18px] font-500 text-[#3F3F3F] gap-11">
+                <ul className="menu menu-horizontal px-1 text-[18px] font-500 text-[#3F3F3F] xl:gap-11 lg:gap-2">
                   <li><a>Home</a></li>
                   <li><a>Blog</a></li>
                   <li><a>About us</a></li>
@@ -54,8 +54,8 @@ const NavBar = () => {
                 </ul>
               </div>
               <div className="navbar-end">
-                <a className="btn rounded-full w-[154px] h-[58px] text-[20px] font-500 bg-[#396C03] capitalize text-white border-none mr-[23px]">Login</a>                 
-                <label tabIndex={0} className="btn btn-ghost btn-circle w-[60px] h-[60px] bg-[#396C03]">
+                <a className="btn rounded-full w-[154px] h-[58px] text-[20px] font-500 bg-[#396C03] capitalize text-white border-none xl:mr-[23px] lg:mr-[0px]">Login</a>                 
+                <label tabIndex={0} className="btn btn-ghost btn-circle w-[60px] h-[60px] bg-[#396C03] xl:mr-20 lg:mr-0">
                 <div className="indicator">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-[30px] w-[28px] text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
                   <span className="badge badge-sm indicator-item w-[26] h-[26] bg-[#FF8B00] text-white mt-[-5px] mr-[-10px] border-none font-700 py-[10px]">2</span>
